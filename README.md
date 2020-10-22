@@ -1,3 +1,3 @@
 # blissfulHimalaya 
 blissfulHimalaya is a tourism based website..
-link: https://neerajp67.github.io/blissfulHimalaya/
+link: https:https://neerajp67.github.io/blissfulHimalayaV.2/
