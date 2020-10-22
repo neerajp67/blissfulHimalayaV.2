@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+        integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>blissful Himalaya</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-primary bg-success navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Blissful Himalaya</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About-us">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Trek-Packages">Trek Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
+                    <li>
+                        <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+                    <li>
+                        <button class="btn btn-outline-light ml-1 my-2 my-sm-0" type="submit">Search</button></li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- carousel -->
+    <div id="carousel" class="carousel slide hero-slides" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li class="active" data-target="#carousel" data-slide-to="0"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active river">
+                <div class="container h-100 ">
+                    <div class="row align-items-center h-100">
+                        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                            <div class="caption animated fadeIn">
+                                <h2 class="animated fadeInLeft">Boat Excursions</h2>
+                                <p class="animated fadeInRight">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Minus, est necessitatibus in tenetur doloremque officiis magni impedit eveniet
+                                    corporis accusantium ducimus reprehenderit exercitationem repellat sint vitae? Iste
+                                    voluptates provident aut!</p>
+                                <a class="animated fadeInUp btn delicious-btn" href="#">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item riverside">
+                <div class="container h-100 ">
+                    <div class="row align-items-center h-100">
+                        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                            <div class="caption animated fadeIn">
+                                <h2 class="animated fadeInLeft">Discover the canyon by the sea</h2>
+                                <p class="animated fadeInRight">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                    elit. Quod aspernatur iste qui et est ullam, provident, natus modi animi atque
+                                    quidem dolorum, exercitationem ipsa numquam placeat temporibus? Sint, tempore magni.
+                                </p>
+                                <a class="animated fadeInUp btn delicious-btn" href="#">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item rivervalley">
+                <div class="container h-100 d-md-block">
+                    <div class="row align-items-center h-100">
+                        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                            <div class="caption animated fadeIn">
+                                <h2 class="animated fadeInLeft">Explore the river valley</h2>
+                                <p class="animated fadeInRight">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                    elit. Adipisci expedita esse dicta ab accusantium voluptatem, nobis consequatur
+                                    optio harum eveniet nisi facilis alias eligendi odio itaque vitae sit, consequuntur
+                                    ipsam.</p>
+                                <a class="animated fadeInUp btn delicious-btn" href="#">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+        </a>
+    </div>
+
+    <div class="chardham-marquee bg-turquoise">
+        <div class="chardham-marquee-container">
+            <div class="chardham-marquee-items">
+                <span class="text-blue" style="font-weight: 500">
+                    CHAR DHAM YATRA STATUS, MORNING REPORT - 20/10/2020 </span>
+            </div>
+            <div class="chardham-marquee-items">
+                <span class="text-red">BADRINATH</span>
+                <span>
+                    <span class="text-blue">Weather : </span>
+                    <span>Clear</span>
+                </span>
+                <span>
+                    <span class="text-blue">Road : </span>
+                    <span>Open</span>
+                </span>
+            </div>
+            <div class="chardham-marquee-items">
+                <span class="text-red">KEDARNATH</span>
+                <span>
+                    <span class="text-blue">Weather : </span>
+                    <span>Clear</span>
+                </span>
+                <span>
+                    <span class="text-blue">Road : </span>
+                    <span>Open</span>
+                </span>
+                <!-- <span>
+<span class="text-blue">Trek : </span>
+<span>Open</span>
+</span> -->
+            </div>
+            <div class="chardham-marquee-items">
+                <span class="text-red">GANGOTRI</span>
+                <span>
+                    <span class="text-blue">Weather : </span>
+                    <span>Clear</span>
+                </span>
+                <span>
+                    <span class="text-blue">Road : </span>
+                    <span>Open</span>
+                </span>
+            </div>
+            <div class="chardham-marquee-items">
+                <span class="text-red">YAMUNOTRI</span>
+                <span>
+                    <span class="text-blue">Weather : </span>
+                    <span>Clear</span>
+                </span>
+                <span>
+                    <span class="text-blue">Road : </span>
+                    <span>Open</span>
+                </span>
+                <span>
+                    <span class="text-blue">Trek : </span>
+                    <span>Open</span>
+                </span>
+            </div>
+            <div class="chardham-marquee-items">
+                <span>
+                    Report Source:
+                </span>
+                <span>
+                    <span style="font-size:14px;">
+                        Disaster Control Room*
+                    </span>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- About-us -->
+    <section id="About-us">
+        <div class="container ">
+            <h1>
+                ABOUT US
+            </h1>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                    <div>
+                        <img src="images/2.jpg" alt="images" height="auto" width="100%">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-8">
+                    <div id="aboutus">
+                        <p>We are a group of youth from the Himalayas eager to build restful and very interactive
+                            tourism in
+                            rural Himalayan villages where the souls from all around the globe could unite
+                            and laminate within and for a better world. We aim to harmonise tourism, adventure,
+                            culture
+                            and
+                            nature all together for the best travelling
+                            experiences for people who care.
+                            We are a group of youth from the Himalayas eager to build restful and very interactive
+                            tourism in
+                            rural Himalayan villages where the souls from all around the globe could unite
+                            and laminate within and for a better world. We aim to harmonise tourism, adventure,
+                            culture
+                            and
+                            nature all together for the best travelling
+                            experiences for people who care.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- tab -->
+    <!-- <div class="bgset">
+        <div class="tab">
+            <button class="tablink" onclick="openCity('SAATHI', this, 'white',)" id="defaultOpen">SAATHI</button>
+            <button class="tablink" onclick="openCity('AboutUK', this, 'white')"> About Uttarakhand</button>
+            <button class="tablink" onclick="openCity('destinations', this, 'white')">Destinations </button>
+            <button class="tablink" onclick="openCity('tourPackage', this, 'white')">Tour Package</button>
+            <button class="tablink" onclick="openCity('events', this, 'white')">Events</button>
+
+            <div id="SAATHI" class="tabcontent">
+                <h3>SAATHI</h3>
+                <hr>
+                <p>Description</p>
+                <div class="col-12">
+                    <button class="btn btn-outline-success mb-5" type="submit">Know More</button>
+                </div>
+            </div>
+
+            <div id="AboutUK" class="tabcontent">
+                <h3>About Uttarakhand</h3>
+                <hr>
+                <p>Description</p>
+
+            </div>
+
+            <div id="destinations" class="tabcontent">
+                <h3>Destinations</h3>
+                <hr>
+                <p>Description</p>
+            </div>
+
+            <div id="tourPackage" class="tabcontent">
+                <h3>Tour Package</h3>
+                <hr>
+                <p>Description</p>
+            </div>
+            <div id="events" class="tabcontent">
+                <h3>Heading</h3>
+                <hr>
+                <p>Description</p>
+            </div>
+        </div>
+    </div> -->
+
+    <section class="header" id="tabs">
+        <div class="py-4">
+            <div class="row">
+                <div class="col-md-2">
+                    <!-- Tabs nav -->
+                    <div class="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab" role="tablist"
+                        aria-orientation="vertical">
+                        <a class="nav-link mb-3 p-3 shadow active" id="v-pills-home-tab" data-toggle="pill"
+                            href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+
+                            <span class="font-weight-bold small text-uppercase">About Uttarakhand</span></a>
+
+                        <a class="nav-link mb-3 p-3 shadow" id="v-pills-profile-tab" data-toggle="pill"
+                            href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+
+                            <span class="font-weight-bold small text-uppercase">Tour Package</span></a>
+
+                        <a class="nav-link mb-3 p-3 shadow" id="v-pills-messages-tab" data-toggle="pill"
+                            href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+
+                            <span class="font-weight-bold small text-uppercase">Destinations</span></a>
+
+                        <a class="nav-link mb-3 p-3 shadow" id="v-pills-settings-tab" data-toggle="pill"
+                            href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+
+                            <span class="font-weight-bold small text-uppercase">Events</span></a>
+                    </div>
+                </div>
+
+
+                <div class="col-md-10">
+                    <!-- Tabs content -->
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade shadow rounded bg-white show active p-3" id="v-pills-home"
+                            role="tabpanel" aria-labelledby="v-pills-home-tab">
+                            <h4 class="mb-4">Uttarakhand - Simply Heaven</h4>
+                            <hr>
+                            <p>Nestled in the lap of the Himalayas, Uttarakhand is one of the most beautiful northern
+                                states of India that enthralls everyone with its spectacularly scenic landscapes.
+                                Charming hill stations juxtaposed against snow-capped peaks, quaint villages along
+                                winding mountain roads, serpentine rivers carving their way through the hills, world
+                                renowned conservation parks like ‘Jim Corbett Tiger National Park’ and ‘Asan Wetland
+                                Conservation Reserve’, world heritage sites like ‘Valley of Flowers’ and ‘Nanda Devi
+                                Biosphere Reserve’, waterfalls hurtling down slopes and serene lakes shimmering amidst
+                                beautiful towns – that’s Uttarakhand for you.
+                            </p>
+                            <p>
+                                Numerous sprawling parks speak of Uttarakhand’s continuous efforts to conserve its
+                                natural ecosystem; its rich culture and religious heritage ensures that it remains on
+                                top of everyone’s travel plan. It has been a favoured choice for travellers from around
+                                the world, who visit this mighty land every year to attain salvation for a life
+                                transforming experience. Here, you can easily satiate all your adventurous desires; be
+                                it flying like a bird, cruising through the strenuous rapids of the Ganges, trekking to
+                                some of the fascinating peaks, skiing through some of the picturesque slopes and
+                                enchanting destinations, enjoy the longest cable-car ride in India and much more. In
+                                short, Uttarakhand is a dream destination for all.</p>
+                        </div>
+
+                        <div class="tab-pane fade shadow rounded bg-white p-3" id="v-pills-profile" role="tabpanel"
+                            aria-labelledby="v-pills-profile-tab">
+                            <div class="row">
+                                <section class="cards cf">
+                                    <article class="fancy-card one">
+                                        <div class="bg-overlay"></div>
+                                        <div class="v-border"></div>
+                                        <div class="h-border"></div>
+                                        <div class="content">
+                                            <div class="primary">
+                                                <h2>Trek Package</h2>
+                                            </div>
+                                            <div class="secondary">
+                                                <p>01/01/2020 07:00 AM </p>
+                                                <p>Come and join us for our next upcoming Adventure. See what the we do
+                                                </p>
+                                                <p>price : 999 /- INR</p>
+                                                <a class="btn btn-success">Join Us </a>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="fancy-card two">
+                                        <div class="bg-overlay"></div>
+                                        <div class="v-border"></div>
+                                        <div class="h-border"></div>
+                                        <div class="content">
+                                            <div class="primary">
+                                                <h2>Trek Package</h2>
+                                            </div>
+                                            <div class="secondary">
+
+                                                <p>01/01/2020 07:00 AM </p>
+                                                <p>Come and join us for our next upcoming Adventure. See what the we do
+                                                </p>
+                                                <p>price : 999 /- INR</p>
+                                                <a class="btn btn-success">Join Us </a>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="fancy-card two">
+                                        <div class="bg-overlay"></div>
+                                        <div class="v-border"></div>
+                                        <div class="h-border"></div>
+                                        <div class="content">
+                                            <div class="primary">
+                                                <h2>Trek Package</h2>
+                                            </div>
+                                            <div class="secondary">
+
+                                                <p>01/01/2020 07:00 AM </p>
+                                                <p>Come and join us for our next upcoming Adventure. See what the we do
+                                                </p>
+                                                <p>price : 999 /- INR</p>
+                                                <a class="btn btn-success">Join Us </a>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </section>
+                            </div>
+
+                        </div>
+
+                        <div class="tab-pane fade shadow rounded bg-white p-3" id="v-pills-messages" role="tabpanel"
+                            aria-labelledby="v-pills-messages-tab">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-4 mx-auto">
+                                    <img class="desinationImg" src="images/1.jpg" alt="">
+                                    <a class="text-muted" href="">Popular Destinations -> </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4 mx-auto">
+                                    <img class="desinationImg" src="images/1.jpg" alt="">
+                                    <a class="text-muted" href="">Lesser Known Destinations -> </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade shadow rounded bg-white p-3" id="v-pills-settings" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab">
+                            <h4 class="mb-4">Events</h4>
+                            <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="imageCombo">
+        <div class="row no-gutters">
+            <div class="col-md-4 colSet">
+                <div class="row no-gutters">
+                    <div class="col-md-6 p-0 col-6 colSet">
+                        <a href="#!">
+                            <div class="card bg-dark text-white">
+                                <img src="https://uttarakhandtourism.gov.in/wp-content/uploads/2018/11/Adventure-Tourism-1-211x224.jpg"
+                                    class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                    <h4 class="card-title">Adventure</h4>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 p-0 col-6 colSet">
+                        <a href="#!">
+                            <div class="card bg-dark text-white">
+                                <img src="https://uttarakhandtourism.gov.in/wp-content/uploads/2018/11/Pilgrimage-Spiritual-Tourism-1-211x224.jpg"
+                                    class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                    <h4 class="card-title">Religious &amp; Pilgrimage</h4>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 p-0 col-6 colSet">
+                        <a href="#!">
+                            <div class="card bg-dark text-white">
+                                <img src="https://uttarakhandtourism.gov.in/wp-content/uploads/2018/11/Wildlife-1-211x224.jpg"
+                                    class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                    <h4 class="card-title">Wildlife</h4>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 p-0 col-6 colSet">
+                        <a href="#!">
+                            <div class="card bg-dark text-white">
+                                <img src="https://uttarakhandtourism.gov.in/wp-content/uploads/2018/11/Health-and-Wellness-Tourism_-1-211x224.jpg"
+                                    class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                    <h4 class="card-title">Wellness &amp; Spirituality</h4>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 colSet">
+                <a href="#!">
+                    <div class="card bg-dark text-white">
+                        <img src="https://uttarakhandtourism.gov.in/wp-content/uploads/2018/12/location_center_img1-422x448.jpg"
+                            class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <img src="images/location.png" class="pb-3 w-50 locationIcon">
+                            <h3 class="card-title">Things to Do</h3>
+
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 colSet">
+                <div class="row no-gutters">
+                    <div class="col-md-6 p-0 col-6 colSet">
+                        <a href="#!">
+                            <div class="card bg-dark text-white">
+                                <img src="https://uttarakhandtourism.gov.in/wp-content/uploads/2018/11/Heritage-Tourism-1-211x224.jpg"
+                                    class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                    <h4 class="card-title">History &amp; Heritage</h4>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 p-0 col-6 colSet">
+                        <a href="#!">
+                            <div class="card bg-dark text-white">
+                                <img src="https://uttarakhandtourism.gov.in/wp-content/uploads/2018/11/Cultural-Tourism-211x224.jpg"
+                                    class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                    <h4 class="card-title">Culture &amp; People</h4>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 p-0 col-6 colSet">
+                        <a href="#!">
+                            <div class="card bg-dark text-white">
+                                <img src="https://uttarakhandtourism.gov.in/wp-content/uploads/2018/11/Valley-of-flowers-Resize-Images-1-1-211x224.jpg"
+                                    class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                    <h4 class="card-title">Nature &amp; Eco</h4>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 p-0 col-6 colSet">
+                        <a href="#!">
+                            <div class="card bg-dark text-white">
+                                <img src="https://uttarakhandtourism.gov.in/wp-content/uploads/2018/11/kumaon-cuisine-main-1-211x224.jpg"
+                                    class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                    <h4 class="card-title">Cuisines</h4>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end  -->
+
+
+    <!-- -----------------------------footer------------------- -->
+    <!-- Footer -->
+    <section id="footer" class="bg-success">
+        <div class="container">
+            <div class="row text-center text-xs-center text-sm-left text-md-left">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5>Quick links</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="#"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                        <li><a href="#About-us"><i class="fa fa-angle-double-right"></i>About Us</a></li>
+                        <li><a href="#Contact"><i class="fa fa-angle-double-right"></i>Contact</a></li>
+                        <!-- <li><a href="" data-toggle="modal" data-target="#loginModal"><i
+                                    class="fa fa-angle-double-right"></i>Sign
+                                In</a></li> -->
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5>Useful links</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="#Trek-Packages"><i class="fa fa-angle-double-right"></i>Trek Packages</a></li>
+                        <li><a href="#service"><i class="fa fa-angle-double-right"></i>Services</a></li>
+                        <li><a href="#Gallery"><i class="fa fa-angle-double-right"></i>Gallary</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5>Contact</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><i class="fa fa-map-marker-alt"></i>blissfulHimalaya Address Here</li>
+                        <li><i class="fa fa-envelope"></i>example@mail.com</li>
+                        <li><i class="fas fa-phone"></i>+91 0000000000</li>
+                        <li><i class="fab fa-whatsapp"></i>+91 0000000000 </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                    <ul class="list-unstyled list-inline social text-center">
+                        <li class="list-inline-item"><a href="#!" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="#!" target="_blank"><i class="fab fa-youtube"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="#!" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="#!" target="_blank"><i class="fab fa-google-plus"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="#!" target="_blank"><i class="far fa-envelope"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+            </div>
+            <div class="text-center text-white">
+                <p><u><a href="#">BlissfulHimalaya</a></u> is a group of
+                    youth from the Himalayas eager to build restful and very interactive tourism in
+                    rural Himalayan villages..</p>
+            </div>
+            <p class="h6 text-white">© All right Reversed.<a class="ml-2" href="#!" target="_blank">Fukset</a><span
+                    style="float: right;"><a class=" mr-2" href="#">Privacy Policy</a>|
+                    <a class=" ml-2" href="#">Terms of Use</a></span>
+            </p>
+        </div>
+    </section>
+
+    <script>
+        function openCity(cityName, elmnt, color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(cityName).style.display = "block";
+            elmnt.style.backgroundColor = color;
+
+        }
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+
+    <!-- JavaScript Bundle with Popper.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
+        integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD"
+        crossorigin="anonymous"></script>
+    <script src="js/blissfulHimalaya.js"></script>
+</body>
+
+</html>
