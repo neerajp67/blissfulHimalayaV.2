@@ -259,52 +259,6 @@ background-color:var(--button-color-hover);
   border-color: var(--button-color-hover);
 } 
 
-/* Sidebar */
-/* .bgset{
-  background: linear-gradient(to bottom, #3333ff 0%, #99ffcc 100%);
-  margin: 0;
-  padding: 2rem;
-}
-.tab{
-  margin: .1em;
-  
-  }
-.tablink {
-
-  background-color: 	#5cb85c;
-  color: black;
-  font-weight: bold;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 20px;
-  width: 20%;
-}
-@media (max-width:767px){
-  .tablink {
-  width: 100%;
- 
- }
-} */
-
-
-/* Style the tab content */
-/* .tabcontent {
-  color: black;
-  background-color: white;
-  display: none;
-  padding: 50px;
-  
-}
-.tabcontent h3{
-margin-top: 2rem;
-}
-#London {background-color:white;}
-#Paris {background-color:white;}
-#Tokyo {background-color:white;}
-#Oslo {background-color:white;} */
 
 .header{
   background: linear-gradient(to bottom, #3333ff 0%, #99ffcc 100%);
@@ -398,7 +352,6 @@ margin: 0%;
   background: linear-gradient(to bottom, #99ff99 0%, #6699ff 100%);
   text-align: center;
   margin-top: 2rem;
-  margin-bottom: 2rem;
   padding: 2rem;
 }
 #About-us p{
@@ -408,6 +361,84 @@ margin: 0%;
   text-overflow: inherit; 
 }
 
+/* ===================================================Serch box============================= */
+.search-box{
+  text-align: center;
+  margin-bottom: 2rem;
+  
+}
+ .search-box input {
+	outline: none;
+}
+.search-box input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+
+.search-box input[type=search] {
+	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 50rem;
+	
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+.search-box input[type=search]:focus {
+	width: 130px;
+	background-color: #fff;
+	border-color: #66CC75;
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+
+.search-box input:-moz-placeholder {
+	color: #999;
+}
+.search-box input::-webkit-input-placeholder {
+	color: #999;
+} 
+ #srch input[type=search] {
+	width: 5rem;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+}
+#srch input[type=search]:hover {
+	background-color: #fff;
+}
+#srch input[type=search]:focus {
+  width: 50vw;
+  
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+#srch input:-moz-placeholder {
+	color: transparent;
+}
+#srch input::-webkit-input-placeholder {
+	color: transparent;
+} 
+/* .search-container button:hover {
+  background: #ccc;
+} */
 
 /* ====================================================Services============================================================= */
 

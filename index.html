@@ -58,20 +58,20 @@
     <!-- end navbar -->
 
     <!-- floating button -->
-    <button class="float" onclick="openChat()"> 
+    <button class="float" onclick="openChat()">
         <i class="fab fa-facebook-messenger my-float"></i>
     </button>
     <div class="chat-popup" id="myForm">
         <form action="/action_page.php" class="form-container">
-          <h1>Chat</h1>
-      
-          <label for="msg"><b>Message</b></label>
-          <textarea placeholder="Type message.." name="msg" required></textarea>
-      
-          <button type="submit" class="btn">Send</button>
-          <button type="button" class="btn cancel" onclick="closeChat()">Close</button>
+            <h1>Chat</h1>
+
+            <label for="msg"><b>Message</b></label>
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn cancel" onclick="closeChat()">Close</button>
         </form>
-      </div>
+    </div>
     <!-- carousel -->
     <div id="carousel" class="carousel slide hero-slides" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -246,49 +246,18 @@
         </div>
     </section>
 
-    <!-- tab -->
-    <!-- <div class="bgset">
-        <div class="tab">
-            <button class="tablink" onclick="openCity('SAATHI', this, 'white',)" id="defaultOpen">SAATHI</button>
-            <button class="tablink" onclick="openCity('AboutUK', this, 'white')"> About Uttarakhand</button>
-            <button class="tablink" onclick="openCity('destinations', this, 'white')">Destinations </button>
-            <button class="tablink" onclick="openCity('tourPackage', this, 'white')">Tour Package</button>
-            <button class="tablink" onclick="openCity('events', this, 'white')">Events</button>
-
-            <div id="SAATHI" class="tabcontent">
-                <h3>SAATHI</h3>
-                <hr>
-                <p>Description</p>
-                <div class="col-12">
-                    <button class="btn btn-outline-success mb-5" type="submit">Know More</button>
-                </div>
-            </div>
-
-            <div id="AboutUK" class="tabcontent">
-                <h3>About Uttarakhand</h3>
-                <hr>
-                <p>Description</p>
-
-            </div>
-
-            <div id="destinations" class="tabcontent">
-                <h3>Destinations</h3>
-                <hr>
-                <p>Description</p>
-            </div>
-
-            <div id="tourPackage" class="tabcontent">
-                <h3>Tour Package</h3>
-                <hr>
-                <p>Description</p>
-            </div>
-            <div id="events" class="tabcontent">
-                <h3>Heading</h3>
-                <hr>
-                <p>Description</p>
-            </div>
+    <!-- SearchBar -->
+    <div class="search-box">
+        <div class="Contact my-5">
+            <!-- <h1 class="text-center">SEARCH SOMETHING</h1> -->
         </div>
-    </div> -->
+        <form id="srch">
+            <input type="search" placeholder="Search">
+        </form>
+    </div>
+    <!--  -->
+
+    
 
     <section class="header" id="tabs">
         <div class="py-4">
@@ -648,14 +617,14 @@
         document.getElementById("defaultOpen").click();
     </script>
 
-<script>
-    function openChat() {
-      document.getElementById("myForm").style.display = "block";
-    }
-    
-    function closeChat() {
-      document.getElementById("myForm").style.display = "none";
-    }
+    <script>
+        function openChat() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeChat() {
+            document.getElementById("myForm").style.display = "none";
+        }
     </script>
     <!-- JavaScript Bundle with Popper.js -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
