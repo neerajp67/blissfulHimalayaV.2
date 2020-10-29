@@ -310,7 +310,9 @@ margin: 0%;
   opacity: 1;
 }
 
-
+.imageCombo .card{
+  border-radius: 0;
+}
 
 .imageCombo {
   background: linear-gradient(to bottom, #66ff99 0%, #00ccff 100%);
@@ -318,7 +320,9 @@ margin: 0%;
   text-align: center;
   color: white;
  font-weight: bold;
- /* padding: 2rem; */
+ padding-top: 2rem;
+ padding-bottom: 2rem;
+ 
 }
 .imageCombo .card-img{
   opacity: 0.5;
@@ -351,7 +355,7 @@ margin: 0%;
  #About-us{
   background: linear-gradient(to bottom, #99ff99 0%, #6699ff 100%);
   text-align: center;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   padding: 2rem;
 }
 #About-us p{
@@ -441,13 +445,115 @@ input::-webkit-search-cancel-button {
 } */
 
 /* ====================================================Services============================================================= */
-
-/* ============================================================== */
-
- /* ===============================================================footer============================================= */
-#footer{
-  margin-top: 2rem;
+.service{
+  width: 100%;
+ 
+  text-align: center;
 }
+#service{
+  background: linear-gradient(to bottom,  #99ffcc 30%, #3333ff 100%);
+
+  padding: 0 2rem 0 2rem;
+}
+#service h1{
+  padding: 2rem;
+
+}
+.services{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+.service .card{
+  margin-bottom: 2rem;
+}
+.card-header-1 {
+  width: 100%;
+  height: 5rem;
+  padding-top: .5rem ;
+  background:#57cc99;
+}
+.card-header-2 {
+  width: 100%;
+  height: 5rem;
+  padding-top: .5rem ;
+  background:#80ed99;
+}
+.card-header-3 {
+  width: 100%;
+  height: 5rem;
+  padding-top: .5rem ;
+  background:#c7f9cc;
+}
+.card-header-4 {
+  width: 100%;
+  height: 5rem;
+  padding-top: .5rem ;
+  background:#c7f9cc;
+}
+.card-header-5 {
+  width: 100%;
+  height: 5rem;
+  padding-top: .5rem ;
+  background:#80ed99;
+}
+.card-header-6 {
+  width: 100%;
+  height: 5rem;
+  padding-top: .5rem ;
+  background:#57cc99;
+}
+.read-more{
+position: absolute;
+right: 0;
+bottom: 0;
+width: 2rem;
+height: 2rem;
+text-align: center;
+background: var(--light-grey-color);
+}
+.read-more:hover{
+  background: #57cc99;
+  cursor: pointer;
+}
+/* ============================ Gallary ================================== */
+.gallery{
+  background: linear-gradient(to bottom, #99ff99 0%, #6699ff 100%);
+ 
+}
+.gallery h1{
+  padding: 2rem;
+}
+.thumb {
+	margin-bottom: .8rem;
+}
+.thumb:last-child {
+	margin-bottom: 0;
+}
+/* CSS Image Hover Effects: https://www.nxworld.net/tips/css-image-hover-effects.html */
+.thumb 
+figure img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.thumb 
+figure:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+/* Contact */
+#Contact{
+  background: linear-gradient(to bottom, #99ff99 0%, #6699ff 100%);
+}
+#Contact h1{
+  padding: 2rem;
+}
+ /* ===============================================================footer============================================= */
+
 #footer h5{
  padding-left: 10px;
    border-left: 3px solid #eeeeee;
@@ -736,4 +842,67 @@ input::-webkit-search-cancel-button {
     margin: 0% 1.66% 3.33% 1.66%;
   }
   
+}
+
+.booking-tour{
+  margin: 20px 0;
+}
+.booking-tour.inlined {
+  width: 49%;
+  display: inline-block;
+  float: left;
+  margin-left: 1%;
+}
+
+label {
+  display: block;
+  padding-bottom: 1rem;
+  font-size: 1.25em;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 1px solid #777;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  width: 100%;
+  padding: 10px;
+}
+
+.booking-tour .inlined input {
+  width: 95%;
+  display: inline-block;
+}
+
+.booking-tour.personCount {
+  width: 20%;
+  display: inline-block;
+  float: left;
+  /* margin-right: 2px; */
+  margin-left: 10%;
+}
+.booking-tour .personCount input {
+  width: 95%;
+  display: inline-block;
+}
+textarea {
+  height: 10rem;
+}
+
+hr {
+  border: 1px dotted #ccc;
+}
+.tour_selection {
+  box-sizing: border-box;
+  width: 50%;
+}
+@media (max-width:370px){
+  #booking h1{
+    font-size: 26px;
+  } 
+}
+@media (max-width:240px){
+  #booking h1{
+    font-size: 18px;
+  } 
 }

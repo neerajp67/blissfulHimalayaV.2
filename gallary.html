@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+        integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>blissful Himalaya</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-primary bg-success navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Blissful Himalaya</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallary.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="packages.html">Trek Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+                    <li>
+                        <button class="btn btn-outline-light ml-1 my-2 my-sm-0" type="submit">Search</button></li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- floating button -->
+    <button class="float" onclick="openChat()">
+        <i class="fab fa-facebook-messenger my-float"></i>
+    </button>
+    <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <h1>Chat</h1>
+
+            <label for="msg"><b>Message</b></label>
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn cancel" onclick="closeChat()">Close</button>
+        </form>
+    </div>
+
+    <!-- Gallery -->
+    <section class=" gallery">
+        <div class="Contact my-5" id="Gallery">
+            <h1 class="text-center">GALLERY</h1>
+            <div class="row container">
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/2.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/2.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/5.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/5.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/5.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/5.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/2.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/2.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/5.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/5.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/2.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/2.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/5.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/5.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/2.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/2.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/5.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/5.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/5.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/5.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/2.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/2.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/5.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/5.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/2.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/2.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/5.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/5.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/2.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/2.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/5.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/5.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/5.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/5.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/2.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/2.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/5.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/5.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/2.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/2.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/5.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/5.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/2.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/2.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/5.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/5.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/5.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/5.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/2.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/2.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/5.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/5.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/2.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/2.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/5.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/5.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/2.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/2.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/5.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/5.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/5.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/5.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/2.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/2.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/5.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/5.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/2.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/2.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/3.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/3.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="images/5.jpg">
+                        <figure><img class="img-fluid img-thumbnail" src="images/5.jpg" alt="Random Image"></figure>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer" class="bg-success">
+        <div class="container">
+            <div class="row text-center text-xs-center text-sm-left text-md-left">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5>Quick links</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="index.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                        <li><a href="about.html"><i class="fa fa-angle-double-right"></i>About Us</a></li>
+                        <li><a href="contact.html"><i class="fa fa-angle-double-right"></i>Contact</a></li>
+                        <!-- <li><a href="" data-toggle="modal" data-target="#loginModal"><i
+                                class="fa fa-angle-double-right"></i>Sign
+                            In</a></li> -->
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5>Useful links</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="packages.html"><i class="fa fa-angle-double-right"></i>Trek Packages</a></li>
+                        <li><a href="service.html"><i class="fa fa-angle-double-right"></i>Services</a></li>
+                        <li><a href="gallary.html"><i class="fa fa-angle-double-right"></i>Gallary</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5>Contact</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><i class="fa fa-map-marker-alt"></i>blissfulHimalaya Address Here</li>
+                        <li><i class="fa fa-envelope"></i>example@mail.com</li>
+                        <li><i class="fas fa-phone"></i>+91 0000000000</li>
+                        <li><i class="fab fa-whatsapp"></i>+91 0000000000 </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                    <ul class="list-unstyled list-inline social text-center">
+                        <li class="list-inline-item"><a href="#!" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="#!" target="_blank"><i class="fab fa-youtube"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="#!" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="#!" target="_blank"><i class="fab fa-google-plus"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="#!" target="_blank"><i class="far fa-envelope"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+            </div>
+            <div class="text-center text-white">
+                <p><u><a href="#">BlissfulHimalaya</a></u> is a group of
+                    youth from the Himalayas eager to build restful and very interactive tourism in
+                    rural Himalayan villages..</p>
+            </div>
+            <p class="h6 text-white">© All right Reversed.<a class="ml-2" href="#!" target="_blank">Fukset</a><span
+                    style="float: right;"><a class=" mr-2" href="#">Privacy Policy</a>|
+                    <a class=" ml-2" href="#">Terms of Use</a></span>
+            </p>
+        </div>
+    </section>
+
+    <script>
+        function openTab(tabName, elmnt, color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(tabName).style.display = "block";
+            elmnt.style.backgroundColor = color;
+
+        }
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+
+    <script>
+        function openChat() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeChat() {
+            document.getElementById("myForm").style.display = "none";
+        }
+    </script>
+    <!-- JavaScript Bundle with Popper.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
+        integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD"
+        crossorigin="anonymous"></script>
+    <script src="js/blissfulHimalaya.js"></script>
+</body>
+
+</html>
