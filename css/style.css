@@ -328,17 +328,34 @@ margin: 0%;
   opacity: 0.5;
   width: 100%;
   height: 100%;
-  
+  }
+.imageCombo .card:hover h4{
+  visibility: visible;
 }
+
 .imageCombo .colSet{
   padding: 0;
 }
 .imageCombo h4{
+  visibility: hidden;
  margin-top: 30%;
  margin-bottom: auto;
 }
+.imageCombo h3{
+  visibility: hidden;
+}
+.imageCombo .card:hover h3{
+  visibility: visible;
+  }
 .imageCombo .locationIcon{
+  /* visibility: hidden; */
   margin-top: 20%;
+}
+.imageCombo .locationIconParent img{
+visibility: hidden;
+}
+.imageCombo .card:hover img{
+  visibility: visible;
 }
 @media (max-width:350px){
   .imageCombo h3, h4 {
