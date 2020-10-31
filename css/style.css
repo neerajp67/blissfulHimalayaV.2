@@ -541,28 +541,6 @@ background: var(--light-grey-color);
   background: linear-gradient(to bottom, #99ff99 0%, #6699ff 100%);
  
 }
-.gallery h1{
-  padding: 2rem;
-}
-.thumb {
-	margin-bottom: .8rem;
-}
-.thumb:last-child {
-	margin-bottom: 0;
-}
-/* CSS Image Hover Effects: https://www.nxworld.net/tips/css-image-hover-effects.html */
-.thumb 
-figure img {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-}
-.thumb 
-figure:hover img {
-  -webkit-filter: grayscale(0);
-  filter: grayscale(0);
-}
 
 /* Contact */
 #Contact{
