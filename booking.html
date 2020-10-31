@@ -73,167 +73,80 @@
         </form>
     </div>
 
-    <!-- Trek Packeges -->
-    <div class="wrapper">
-        <div class="Contact my-5" id="Trek-Packages">
-            <h1 class="text-center">TREK PACKAGES</h1>
-        </div>
-        <div class="row">
-            <section class="cards cf">
-                <article class="fancy-card one">
-                    <div class="bg-overlay"></div>
-                    <div class="v-border"></div>
-                    <div class="h-border"></div>
-                    <div class="content">
-                        <div class="primary">
-                            <h2>Trek Package</h2>
-                        </div>
-                        <div class="secondary">
-                            <p>01/01/2020 07:00 AM </p>
-                            <p>Come and join us for our next upcoming Adventure. See what the we do</p>
-                            <p>price : 999 /- INR</p>
-                            <a class="btn btn-success" href="packagesDetail.html">Join Us </a>
-                        </div>
-                    </div>
-                </article>
-                <article class="fancy-card two">
-                    <div class="bg-overlay"></div>
-                    <div class="v-border"></div>
-                    <div class="h-border"></div>
-                    <div class="content">
-                        <div class="primary">
-                            <h2>Trek Package</h2>
-                        </div>
-                        <div class="secondary">
+    <div class="Contact my-5" id="Contact">
+        <h1 class="text-center">BOOK A PACKAGE</h1>
 
-                            <p>01/01/2020 07:00 AM </p>
-                            <p>Come and join us for our next upcoming Adventure. See what the we do</p>
-                            <p>price : 999 /- INR</p>
-                            <a class="btn btn-success">Join Us </a>
-                        </div>
+        <section id="booking">
+            <div class="modal-body container">
+                <form action="reservation.php" method="post">
+                    <div class="booking-tour">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="visitor_name" placeholder="Enter your name"
+                            pattern=[A-Z\sa-z]{3,20} required>
                     </div>
-                </article>
-                <article class="fancy-card three">
-                    <div class="bg-overlay"></div>
-                    <div class="v-border"></div>
-                    <div class="h-border"></div>
-                    <div class="content">
-                        <div class="primary">
-                            <h2>Trek Package</h2>
-                        </div>
-                        <div class="secondary">
+                    <div class="booking-tour">
+                        <label for="email">Your E-mail</label>
+                        <input type="email" id="email" name="visitor_email" placeholder="example@email.com" required>
+                    </div>
+                    <div class="booking-tour">
+                        <label for="phone">Your Phone</label>
+                        <input type="tel" id="phone" name="visitor_phone" placeholder="123-1234-123"
+                            pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+                    </div>
+                    <div class="booking-tour personCount">
+                        <label for="male">Male </label>
+                        <input type="number" id="male" name="male" placeholder="Number of male tourist" required>
+                    </div>
+                    <div class="booking-tour personCount">
+                        <label for="male">Female </label>
+                        <input type="number" id="male" name="male" placeholder="Number of female tourist" required>
+                    </div>
+                    <div class="booking-tour personCount">
+                        <label for="male">Kids</label>
+                        <input type="number" id="male" name="male" placeholder="Number of kids">
+                    </div>
+                    <hr>
+                    <!-- <div class="booking-tour inlined">
+                    <label for="Guest">Number of Guests</label>
+                    <input type="number" id="adult" name="total_guest" placeholder="1" min="1" required>
+                </div> -->
+                    <div class="booking-tour inlined">
+                        <label for="checkin-date">Check-in Date</label>
+                        <input type="date" id="checkin-date" name="checkin" required>
+                    </div>
+                    <div class="booking-tour inlined">
+                        <label for="checkout-date">Check-out Date</label>
+                        <input type="date" id="checkout-date" name="checkout" required>
+                    </div>
+                    <div class="booking-tour-packages">
+                        <label for="tour-selection" class="tour_selection">Select Tour Packages</label>
+                        <select id="tour-selection" name="tour_preference" required>
+                            <option value="">Choose a Tour Package from the List</option>
+                            <option value="#PKG-17">Package Name/ID</option>
+                            <option value="#PKG-18">Package Name/ID</option>
+                            <option value="#PKG-19">Package Name/ID</option>
+                            <option value="#PKG-20">Package Name/ID</option>
+                            <option value="#PKG-21">Package Name/ID</option>
+                            <option value="#PKG-23">Package Name/ID</option>
+                            <option value="#PKG-24">Package Name/ID</option>
+                            <option value="#PKG-25">Package Name/ID</option>
+                            <option value="#PKG-26">Package Name/ID</option>
+                        </select>
+                    </div>
 
-                            <p>01/01/2020 07:00 AM </p>
-                            <p>Come and join us for our next upcoming Adventure. See what the we do</p>
-                            <p>price : 999 /- INR</p>
-                            <a class="btn btn-success">Join Us </a>
-                        </div>
+                    <hr>
+                    <div class="booking-tour">
+                        <label for="message">Anything Else ?</label>
+                        <textarea id="message" name="visitor_message"
+                            placeholder="Tell us anything else that might be important.."></textarea>
                     </div>
-                </article>
-                <article class="fancy-card one">
-                    <div class="bg-overlay"></div>
-                    <div class="v-border"></div>
-                    <div class="h-border"></div>
-                    <div class="content">
-                        <div class="primary">
-                            <h2>Trek Package</h2>
-                        </div>
-                        <div class="secondary">
-                            <p>01/01/2020 07:00 AM </p>
-                            <p>Come and join us for our next upcoming Adventure. See what the we do</p>
-                            <p>price : 999 /- INR</p>
-                            <a class="btn btn-success">Join Us </a>
-                        </div>
-                    </div>
-                </article>
-                <article class="fancy-card two">
-                    <div class="bg-overlay"></div>
-                    <div class="v-border"></div>
-                    <div class="h-border"></div>
-                    <div class="content">
-                        <div class="primary">
-                            <h2>Trek Package</h2>
-                        </div>
-                        <div class="secondary">
-
-                            <p>01/01/2020 07:00 AM </p>
-                            <p>Come and join us for our next upcoming Adventure. See what the we do</p>
-                            <p>price : 999 /- INR</p>
-                            <a class="btn btn-success">Join Us </a>
-                        </div>
-                    </div>
-                </article>
-                <article class="fancy-card three">
-                    <div class="bg-overlay"></div>
-                    <div class="v-border"></div>
-                    <div class="h-border"></div>
-                    <div class="content">
-                        <div class="primary">
-                            <h2>Trek Package</h2>
-                        </div>
-                        <div class="secondary">
-
-                            <p>01/01/2020 07:00 AM </p>
-                            <p>Come and join us for our next upcoming Adventure. See what the we do</p>
-                            <p>price : 999 /- INR</p>
-                            <a class="btn btn-success">Join Us </a>
-                        </div>
-                    </div>
-                </article>
-                <article class="fancy-card one">
-                    <div class="bg-overlay"></div>
-                    <div class="v-border"></div>
-                    <div class="h-border"></div>
-                    <div class="content">
-                        <div class="primary">
-                            <h2>Trek Package</h2>
-                        </div>
-                        <div class="secondary">
-                            <p>01/01/2020 07:00 AM </p>
-                            <p>Come and join us for our next upcoming Adventure. See what the we do</p>
-                            <p>price : 999 /- INR</p>
-                            <a class="btn btn-success">Join Us </a>
-                        </div>
-                    </div>
-                </article>
-                <article class="fancy-card two">
-                    <div class="bg-overlay"></div>
-                    <div class="v-border"></div>
-                    <div class="h-border"></div>
-                    <div class="content">
-                        <div class="primary">
-                            <h2>Trek Package</h2>
-                        </div>
-                        <div class="secondary">
-
-                            <p>01/01/2020 07:00 AM </p>
-                            <p>Come and join us for our next upcoming Adventure. See what the we do</p>
-                            <p>price : 999 /- INR</p>
-                            <a class="btn btn-success">Join Us </a>
-                        </div>
-                    </div>
-                </article>
-                <article class="fancy-card three">
-                    <div class="bg-overlay"></div>
-                    <div class="v-border"></div>
-                    <div class="h-border"></div>
-                    <div class="content">
-                        <div class="primary">
-                            <h2>Trek Package</h2>
-                        </div>
-                        <div class="secondary">
-
-                            <p>01/01/2020 07:00 AM </p>
-                            <p>Come and join us for our next upcoming Adventure. See what the we do</p>
-                            <p>price : 999 /- INR</p>
-                            <a class="btn btn-success">Join Us </a>
-                        </div>
-                    </div>
-                </article>
-            </section>
-        </div>
+                    <button type="submit" class="btn bg-success text-white mx-auto m-2">Book The Packages</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </section>
     </div>
-
     <!-- Footer -->
     <section id="footer" class="bg-success">
         <div class="container">

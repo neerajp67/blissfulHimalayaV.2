@@ -325,10 +325,11 @@ margin: 0%;
  
 }
 .imageCombo .card-img{
-  opacity: 0.5;
+  /* opacity: 0.5; */
   width: 100%;
   height: 100%;
   }
+
 .imageCombo .card:hover h4{
   visibility: visible;
 }
@@ -356,6 +357,7 @@ visibility: hidden;
 }
 .imageCombo .card:hover img{
   visibility: visible;
+  opacity: .5;
 }
 @media (max-width:350px){
   .imageCombo h3, h4 {
@@ -649,7 +651,11 @@ figure:hover img {
 
 /* ========================================= */
 .wrapper{
-  padding: 30px 15px;
+  padding: 2rem 0 2rem 0;
+  background: linear-gradient(to bottom,  #99ffcc 30%, #3333ff 100%);
+}
+.wrapper .morePackages{
+  margin-left: 45%;
 }
 .row{
   /* max-width: 1024px; */
@@ -853,7 +859,7 @@ figure:hover img {
 }
 /*medium and large profiles*/
 @media screen and (min-width: 768px){
-  
+   
   .fancy-card{
     width: 30%;
     margin: 0% 1.66% 3.33% 1.66%;
@@ -861,9 +867,12 @@ figure:hover img {
   
 }
 
-.booking-tour{
-  margin: 20px 0;
+.packageDetail{
+  padding: 2rem;
 }
+
+/* ************************************booking form ************************************* */
+
 .booking-tour.inlined {
   width: 49%;
   display: inline-block;
